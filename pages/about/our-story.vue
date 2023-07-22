@@ -280,11 +280,10 @@
   </div>
 </template>
 
-
 <script setup>
 useHead({
-  title: 'Our Story'
-})
+  title: "Our Story",
+});
 </script>
 <style scoped>
 /* not a mistake, our beliefs css is the same as our story */
@@ -299,14 +298,27 @@ useHead({
 }
 
 .single-content p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
-#kt-adv-heading_5d7d15-3b[data-v-6ec38626], #kt-adv-heading_5d7d15-3b .wp-block-kadence-advancedheading[data-v-6ec38626], .wp-block-kadence-advancedheading.kt-adv-heading_5d7d15-3b[data-kb-block="kb-adv-heading_5d7d15-3b"][data-v-6ec38626], .kadence-advanced-heading-wrapper .kt-adv-heading_5d7d15-3b[data-kb-block="kb-adv-heading_5d7d15-3b"][data-v-6ec38626] {
-    margin-bottom: 0;
+#kt-adv-heading_5d7d15-3b[data-v-6ec38626],
+#kt-adv-heading_5d7d15-3b .wp-block-kadence-advancedheading[data-v-6ec38626],
+.wp-block-kadence-advancedheading.kt-adv-heading_5d7d15-3b[data-kb-block="kb-adv-heading_5d7d15-3b"][data-v-6ec38626],
+.kadence-advanced-heading-wrapper
+  .kt-adv-heading_5d7d15-3b[data-kb-block="kb-adv-heading_5d7d15-3b"][data-v-6ec38626] {
+  margin-bottom: 0;
 }
 
-#kt-layout-id_1fe5fc-01>.kt-row-column-wrap {
-    padding-top: 50px;
+#kt-layout-id_1fe5fc-01 > .kt-row-column-wrap {
+  padding-top: 50px;
+}
+
+@media all and (max-width: 767px) {
+  .wp-block-kadence-column.kadence-column_467716-38 > .kt-inside-inner-col {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
 }
 </style>

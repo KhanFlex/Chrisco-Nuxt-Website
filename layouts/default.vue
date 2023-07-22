@@ -89,22 +89,24 @@
                     <li
                       class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1243"
                     >
-                      <a>Our Story</a>
+                      <NuxtLink to="/about/our-story">Our Story</NuxtLink>
                     </li>
                     <li
                       class="menu-item menu-item-type-post_type menu-item-object-tribe_events menu-item-1235"
                     >
-                      <a>Our people</a>
+                      <NuxtLink to="/about/our-people">Our people</NuxtLink>
                     </li>
                     <li
                       class="menu-item menu-item-type-post_type menu-item-object-tribe_events menu-item-1235"
                     >
-                      <a>Our beliefs</a>
+                      <NuxtLink to="/about/our-beliefs">Our beliefs</NuxtLink>
                     </li>
                     <li
                       class="menu-item menu-item-type-post_type menu-item-object-tribe_events menu-item-1235"
                     >
-                      <a>Our governance</a>
+                      <NuxtLink to="/about/our-governance"
+                        >Our governance</NuxtLink
+                      >
                     </li>
                   </ul>
                 </li>
@@ -143,17 +145,21 @@
                     <li
                       class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1073"
                     >
-                      <a>Master Calendar</a>
+                      <NuxtLink to="/calendar/master-calendar"
+                        >Master Calendar</NuxtLink
+                      >
                     </li>
                     <li
                       class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1083"
                     >
-                      <a>Events</a>
+                      <NuxtLink to="/calendar/events">Events</NuxtLink>
                     </li>
                     <li
                       class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1082"
                     >
-                      <a>Weekly Gatherings</a>
+                      <NuxtLink to="/calendar/weekly-gatherings"
+                        >Weekly Gatherings</NuxtLink
+                      >
                     </li>
                   </ul>
                 </li>
@@ -191,29 +197,39 @@
                     <li
                       class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1242"
                     >
-                      <a>Sermons</a>
+                      <a
+                        href="https://www.youtube.com/@chriscocitychurch771/videos"
+                        target="_blank"
+                        >Sermons</a
+                      >
                     </li>
                     <li
                       class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1077"
                     >
-                      <a>Sunday Bulletins</a>
+                      <NuxtLink to="/resources/sunday-bulletins"
+                        >Sunday Bulletins</NuxtLink
+                      >
                     </li>
                     <li
                       class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1257"
                     >
-                      <a>Daily Devotions</a>
+                      <a
+                        href="https://podcasters.spotify.com/pod/show/chriscocitychurch"
+                        target="_blank"
+                        >Daily Devotions</a
+                      >
                     </li>
                   </ul>
                 </li>
                 <li
                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1072"
                 >
-                  <a>Contact</a>
+                  <NuxtLink to="/contact-us">Contact</NuxtLink>
                 </li>
                 <li
                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1074"
                 >
-                  <a>Giving</a>
+                  <NuxtLink to="/giving">Giving</NuxtLink>
                 </li>
               </ul>
             </div>
@@ -229,7 +245,11 @@
 <style>
 @import "@/assets/css/home.css";
 
-#kt-adv-heading_fb1a11-c9, #kt-adv-heading_fb1a11-c9 .wp-block-kadence-advancedheading, .wp-block-kadence-advancedheading.kt-adv-heading_fb1a11-c9[data-kb-block="kb-adv-heading_fb1a11-c9"], .kadence-advanced-heading-wrapper .kt-adv-heading_fb1a11-c9[data-kb-block="kb-adv-heading_fb1a11-c9"] {
-    line-height: 1.5em;
+#kt-adv-heading_fb1a11-c9,
+#kt-adv-heading_fb1a11-c9 .wp-block-kadence-advancedheading,
+.wp-block-kadence-advancedheading.kt-adv-heading_fb1a11-c9[data-kb-block="kb-adv-heading_fb1a11-c9"],
+.kadence-advanced-heading-wrapper
+  .kt-adv-heading_fb1a11-c9[data-kb-block="kb-adv-heading_fb1a11-c9"] {
+  line-height: 1.5em;
 }
 </style>
