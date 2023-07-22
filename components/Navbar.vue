@@ -381,7 +381,7 @@
                         <div
                           class="site-branding mobile-site-branding branding-layout-standard branding-tablet-layout-inherit site-brand-logo-only branding-mobile-layout-inherit"
                         >
-                          <a
+                          <NuxtLink to="/"
                             class="brand has-logo-image"
                             rel="home"
                             aria-label="Church"
@@ -393,7 +393,7 @@
                               alt="Church"
                               decoding="async"
                               sizes="(max-width: 1180px) 100vw, 1180px"
-                          /></a>
+                          /></NuxtLink>
                         </div>
                       </div>
                       <!-- data-section="title_tagline" -->

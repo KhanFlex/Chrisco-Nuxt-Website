@@ -52,7 +52,7 @@
                 <li
                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-988 current_page_item menu-item-1071"
                 >
-                  <a aria-current="page">Home</a>
+                  <NuxtLink to="/"  aria-current="page">Home</NuxtLink>
                 </li>
 
                 <li
