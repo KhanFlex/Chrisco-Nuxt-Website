@@ -25,10 +25,8 @@
               <div class="tribe-events-schedule tribe-clearfix">
                 <h2>
                   <span class="tribe-event-date-start">{{ time }}</span>
-                   
                 </h2>
               </div>
-
 
               <div
                 id="post-1059"
@@ -68,8 +66,8 @@
 
 <script setup>
 useHead({
-  title: 'Chrisco City Church News'
-})
+  title: "Chrisco City Church News",
+});
 const { id } = useRoute().params;
 const { cv } = useRoute().query;
 
@@ -112,7 +110,6 @@ function formatDate(inputDate) {
 }
 
 const time = computed(() => formatDate(toRaw(data.value).story.content.Date));
-
 </script>
 
 <style scoped>
@@ -131,8 +128,9 @@ const time = computed(() => formatDate(toRaw(data.value).story.content.Date));
 }
 
 @media all and (max-width: 1024px) {
-.content-area {
-  padding: 0 30px !important;
-}
+  .content-area {
+    padding: 0 25px !important;
+    margin-top: 105px !important;
+  }
 }
 </style>
