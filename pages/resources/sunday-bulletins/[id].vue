@@ -129,4 +129,10 @@ const time = computed(() => formatDate(toRaw(data.value).story.content.Date));
 .tribe-events-schedule.tribe-clearfix {
   margin-bottom: 0 !important;
 }
+
+@media all and (max-width: 1024px) {
+.content-area {
+  padding: 0 30px !important;
+}
+}
 </style>
