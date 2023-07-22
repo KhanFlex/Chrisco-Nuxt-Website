@@ -553,8 +553,8 @@
 
 <script setup>
 useHead({
-  title: 'Contact Us'
-})
+  title: "Contact Us",
+});
 
 const name = ref("");
 const email = ref("");
@@ -631,38 +631,41 @@ const submitForm = async () => {
 <style lang="css" scoped>
 @import "@/assets/css/contact.css";
 
-.kb-form .kadence-blocks-form-field .kb-forms-submit[data-v-0e2b17d4] {
-  background: rgba(7, 27, 56, 1);
+.kb-form .kadence-blocks-form-field .kb-forms-submit {
+  background: rgba(7, 27, 56, 1) !important;
 }
 
-button[data-v-0e2b17d4],
-.button[data-v-0e2b17d4],
-.wp-block-button__link[data-v-0e2b17d4],
-.wp-element-button[data-v-0e2b17d4],
-input[type="button"][data-v-0e2b17d4],
-input[type="reset"][data-v-0e2b17d4],
-input[type="submit"][data-v-0e2b17d4] {
-  background: rgba(205, 43, 37, 1);
+button,
+.button,
+.wp-block-button__link,
+.wp-element-button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  background: rgba(205, 43, 37, 1) !important;
 }
- 
 
-#kt-info-box_efeaa1-5a .kt-blocks-info-box-title[data-v-0e2b17d4] {
+#kt-info-box_efeaa1-5a .kt-blocks-info-box-title {
   color: white;
 }
 
-#kt-info-box_41e20d-d7 .kt-blocks-info-box-title[data-v-0e2b17d4] {
+#kt-info-box_41e20d-d7 .kt-blocks-info-box-title {
   color: white;
 }
 
-#kt-info-box_efeaa1-5a .kt-blocks-info-box-link-wrap:hover .kt-blocks-info-box-media[data-v-0e2b17d4] {
-    color: var(--global-palette9, #ffffff);
-    background: rgba(205, 43, 37, 1);
-    border-color: #eeeeee;
+#kt-info-box_efeaa1-5a
+  .kt-blocks-info-box-link-wrap:hover
+  .kt-blocks-info-box-media {
+  color: var(--global-palette9, #ffffff);
+  background: rgba(205, 43, 37, 1) !important;
+  border-color: #eeeeee;
 }
 
-#kt-info-box_41e20d-d7 .kt-blocks-info-box-link-wrap:hover .kt-blocks-info-box-media[data-v-0e2b17d4] {
-    color: var(--global-palette9, #ffffff);
-    background: rgba(205, 43, 37, 1);
-    border-color: #eeeeee;
+#kt-info-box_41e20d-d7
+  .kt-blocks-info-box-link-wrap:hover
+  .kt-blocks-info-box-media {
+  color: var(--global-palette9, #ffffff);
+  background: rgba(205, 43, 37, 1) !important;
+  border-color: #eeeeee;
 }
 </style>
