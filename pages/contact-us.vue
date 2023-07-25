@@ -604,10 +604,9 @@ const submitForm = async () => {
         subject: subject.value,
       };
 
-      const res = await fetch("https://chrisco-cms.000webhostapp.com/api.php", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: JSON.stringify(formData),
+      const res = await $fetch("/api/mail", {
+        method: "post",
+        body: formData,
       });
 
       showSuccess.value = true;
@@ -619,6 +618,8 @@ const submitForm = async () => {
       message.value = "";
       email.value = "";
       sending.value = false;
+      errors.value = {};
+
       setTimeout(() => {
         showError.value = showSuccess.value = false;
       }, 3000);
