@@ -148,7 +148,7 @@ function formatDate(inputDate) {
 }
 
 const { pending, data } = await useFetch(
-  "https://api.storyblok.com/v2/cdn/stories?starts_with=all-news&token=jmrSXvK178kWedQ67oQLoAtt",
+  "https://api.storyblok.com/v2/cdn/stories?starts_with=all-news&sort_by=published_at:desc&per_page=3&page=1&token=jmrSXvK178kWedQ67oQLoAtt",
   {
     lazy: true,
     headers: {
@@ -156,7 +156,7 @@ const { pending, data } = await useFetch(
     },
     transform(data) {
       return data.stories.map((item) => {
-        item.content.Date = formatDate(item.content.Date);
+        item.content.Date = formatDate(item.published_at);
         item.content.Description = renderRichText(item.content.Description);
         item.cv = data.cv
         return item;
@@ -172,8 +172,7 @@ const { pending, data } = await useFetch(
 }
 
 .event-description {
-  height: 40px; /* Set the desired width for the excerpt container */
-  white-space: nowrap; /* Prevent text from wrapping to multiple lines */
+  height: 58px; /* Set the desired width for the excerpt container */
   overflow: hidden; /* Hide overflowing content */
   text-overflow: ellipsis; /* Display ellipsis (...) for truncated content */
 }

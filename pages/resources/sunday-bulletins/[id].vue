@@ -17,7 +17,10 @@
                     « Back to Sunday Bulletins
                   </NuxtLink>
                 </p>
-                <h1 class="entry-title tribe-events-single-event-title">
+                <h1
+                  class="entry-title tribe-events-single-event-title"
+                  style="margin-top: 40px"
+                >
                   {{ data.story.content.Title }}
                 </h1>
               </div>
@@ -109,7 +112,7 @@ function formatDate(inputDate) {
   return formattedDate;
 }
 
-const time = computed(() => formatDate(toRaw(data.value).story.content.Date));
+const time = computed(() => formatDate(toRaw(data.value).story.published_at));
 </script>
 
 <style scoped>

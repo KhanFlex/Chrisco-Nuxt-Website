@@ -36,7 +36,9 @@
           <div
             class="tribe-events-calendar-latest-past__event-description tribe-common-b2 tribe-common-a11y-hidden"
           >
-            <div class="event-description" v-html="eventDescription"></div>
+            <div class="truncate-container">
+              <div class="truncate-content" v-html="eventDescription"></div>
+            </div>
           </div>
         </div>
       </article>
@@ -82,13 +84,45 @@ function formatDate(inputDate) {
   return formattedDate;
 }
 
-const time = computed(() => formatDate(event.content.Date));
+const time = computed(() => formatDate(event.published_at));
 </script>
 
 <style scoped>
 @import "@/assets/css/event.strip.css";
 
-a[data-v-dadc1f88]:hover, a[data-v-dadc1f88]:focus, a[data-v-dadc1f88]:active {
-  color: rgba(205,43,37,1) !important; 
+a[data-v-dadc1f88]:hover,
+a[data-v-dadc1f88]:focus,
+a[data-v-dadc1f88]:active {
+  color: rgba(205, 43, 37, 1) !important;
+}
+
+.event-description {
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.truncate-container {
+  /* Set a fixed height for the container to create the truncation effect */
+  max-height: 100px; /* Change this value to control the visible lines */
+  overflow: hidden;
+  position: relative;
+}
+
+.truncate-content {
+  /* Enable text wrapping within the container */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Display ellipsis (...) when text overflows */
+}
+
+.truncate-link {
+  /* Style the "Read more" link */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 4px 8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  color: #007bff;
 }
 </style>
