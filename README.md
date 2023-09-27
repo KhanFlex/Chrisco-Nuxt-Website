@@ -45,7 +45,7 @@ Locally preview production build:
 npm run preview
 ```
 
-## Deploy to Netflify using Github CI(Continous Integration) 
+## Deploy to Netflify using Github CI (Continous Integration) 
 
 ```bash
 git add . # if you added new files
