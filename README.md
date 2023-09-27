@@ -20,7 +20,7 @@ nvm use # run this in the root directory to switch node versions
 npm install # install npm dependencies
  ```
 
-## Development Server
+## Start Development Server
 
 Start the development server on `http://localhost:3000`:
 
@@ -29,7 +29,7 @@ Start the development server on `http://localhost:3000`:
 npm run dev
 ```
 
-## Production
+## Build for Production
 
 Build the application for production:
 
@@ -45,7 +45,7 @@ Locally preview production build:
 npm run preview
 ```
 
-## Deploy 
+## Deploy to Netflify using Github CI(Continous Integration) 
 
 ```bash
 git add . # if you added new files
@@ -86,4 +86,4 @@ git push # sync the changes with the master branch in this repository. This will
 5. Upcoming events section
 
 ## Website link used as a template for the user interface
-[Open template website](https://startertemplatecloud.com/g12/)
+[Link to website's UI template](https://startertemplatecloud.com/g12/)
