@@ -1,10 +1,14 @@
-# Minimal Project Documentation
+### Minimal Project Documentation
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-Development environment
+
+
+### Development environment
+```bash
 NuxtJs: Version 3
 Node Version: 16.20.1 - Also declared in .nvmrc
 Operating System: Ubuntu 22.04.3 LTS - Might be useful if symlinks don't work or file paths are invalid
+```
 
 ## Setup
 
@@ -82,4 +86,4 @@ git push # sync the changes with the master branch in this repository. This will
 5. Upcoming events section
 
 ## Website link used as a template for the user interface
-https://startertemplatecloud.com/g12/
+[Open template website](https://startertemplatecloud.com/g12/)
