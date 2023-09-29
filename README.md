@@ -1,13 +1,26 @@
-## Nuxt 3 Project Setup
+### Minimal Project Documentation
 
-Make sure to install the dependencies:
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+
+### Development environment
 ```bash
-# npm
-npm install
+NuxtJs: Version 3
+Node Version: 16.20.1 - Also declared in .nvmrc
+Operating System: Ubuntu 22.04.3 LTS - Might be useful if symlinks don't work or file paths are invalid
 ```
 
-## Development Server
+## Setup
+
+Change node version to the project's node version
+
+```bash
+nvm install # install the required node version if not already installed
+nvm use # run this in the root directory to switch node versions
+npm install # install npm dependencies
+ ```
+
+## Start Development Server
 
 Start the development server on `http://localhost:3000`:
 
@@ -16,7 +29,7 @@ Start the development server on `http://localhost:3000`:
 npm run dev
 ```
 
-## Production
+## Build for Production
 
 Build the application for production:
 
@@ -32,7 +45,15 @@ Locally preview production build:
 npm run preview
 ```
 
-# Website Pages
+## Deploy to Netflify using Github CI (Continous Integration) 
+
+```bash
+git add . # if you added new files
+git commit -m "Briefly describe the new changes made here"
+git push # sync the changes with the master branch in this repository. This will also trigger a deployment on Netlify reflecting the changes you made to the repository 
+```
+
+## Website Pages
 
  1. Home/Landing page
  2. About - Our people 
@@ -50,13 +71,13 @@ npm run preview
 14. Contact 
 15. Giving
 
-# Global Components
+## Global Components
 
 1. Navigation menu
 2. Side Navigation menu for mobile
 2. Footer
 
-# Home page components
+## Home page components
 
 1. Header section
 2. Join the sunday service card
@@ -64,10 +85,5 @@ npm run preview
 4. Latest News section
 5. Upcoming events section
 
-# Website link used as a template for the user interface
-
-https://startertemplatecloud.com/g12/
-
-# Live demo link on Netlify
- 
-https://benevolent-torte-3f5e20.netlify.app/
+## Website link used as a template for the user interface
+[Link to website's UI template](https://startertemplatecloud.com/g12/)
