@@ -28,7 +28,7 @@ Operating System: Ubuntu 22.04.3 LTS - Might be relevant information if symlinks
 Clone the repository to your local machine
 
 ```bash
-git clone https://github.com/KhanFlex/Chrisco-Nuxt-Website.git
+git clone https://github.com/KhanFlex/Chrisco-Nuxt-Website.git && cd Chrisco-Nuxt-Website
 ```
 
 Change node version to the project's node version
