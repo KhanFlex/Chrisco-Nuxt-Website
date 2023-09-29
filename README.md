@@ -17,13 +17,13 @@ Operating System: Ubuntu 22.04.3 LTS - Might be relevant information if symlinks
 
 ### Project Dependencies Links
 
-1. Nuxt 3 documentation: (https://nuxt.com/docs/getting-started/introduction)  
-2. Node.js: (https://nodejs.org/en/about)  
-3. nvm for Linux: (https://github.com/nvm-sh/nvm)  
-4. nvm for Windows: (https://github.com/coreybutler/nvm-windows)  
-5. Ubuntu: (https://ubuntu.com/)  
-6. StoryBlok: (https://www.storyblok.com/)  
-7. Netlify: (https://www.netlify.com/)  
+1.Nuxt 3 documentation: (https://nuxt.com/docs/getting-started/introduction)  
+2.Node.js: (https://nodejs.org/en/about)  
+3.nvm for Linux: (https://github.com/nvm-sh/nvm)  
+4.nvm for Windows: (https://github.com/coreybutler/nvm-windows)  
+5.Ubuntu: (https://ubuntu.com/)  
+6.StoryBlok: (https://www.storyblok.com/)  
+7.Netlify: (https://www.netlify.com/)  
 
 ## Setup
 
