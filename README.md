@@ -13,6 +13,8 @@ Node.js: Version 16.20.1 - Also declared in .nvmrc
 Operating System: Ubuntu 22.04.3 LTS - Might be relevant information if symlinks don't work or file paths are invalid
 ```
 
+### Project Dependencies Links
+
 1. Nuxt 3 documentation: (https://nuxt.com/docs/getting-started/introduction)  
 2. Node.js: (https://nodejs.org/en/about)  
 3. nvm for Linux: (https://github.com/nvm-sh/nvm)  
