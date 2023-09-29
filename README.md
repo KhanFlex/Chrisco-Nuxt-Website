@@ -1,20 +1,10 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
+## Nuxt 3 Project Setup
 
 Make sure to install the dependencies:
 
 ```bash
 # npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
 ```
 
 ## Development Server
@@ -24,12 +14,6 @@ Start the development server on `http://localhost:3000`:
 ```bash
 # npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
 ```
 
 ## Production
@@ -39,12 +23,6 @@ Build the application for production:
 ```bash
 # npm
 npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
 ```
 
 Locally preview production build:
@@ -52,12 +30,6 @@ Locally preview production build:
 ```bash
 # npm
 npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
 ```
 
 # Website Pages
@@ -93,4 +65,9 @@ yarn preview
 5. Upcoming events section
 
 # Website link used as a template for the user interface
+
 https://startertemplatecloud.com/g12/
+
+# Live demo link on Netlify
+ 
+https://benevolent-torte-3f5e20.netlify.app/

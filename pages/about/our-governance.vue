@@ -168,6 +168,8 @@ useHead({
   title: "Our Governance",
 });
 </script>
+
+
 <style scoped>
 @import "@/assets/css/our-governance.css";
 

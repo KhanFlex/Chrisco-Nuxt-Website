@@ -181,6 +181,8 @@ useHead({
   title: "Our People",
 });
 </script>
+
+
 <style scoped>
 @import "@/assets/css/our-people.css";
 
