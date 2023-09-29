@@ -1,5 +1,5 @@
 ### About this repository
-This repository contains everything needed to create, configure and update the church website at this url(https://benevolent-torte-3f5e20.netlify.app/).
+This repository contains everything needed to create, configure and update the church website at this url https://benevolent-torte-3f5e20.netlify.app
 The backend and front end of the website was developed using [Nuxt 3 Framework](https://nuxt.com/docs/getting-started/introduction) and the website content is managed
 separately using [StoryBlok](https://www.storyblok.com/). The site is hosted on [Netlify](https://www.netlify.com/) and the domain name is registered with [Namecheap](https://www.namecheap.com/)
 
@@ -11,13 +11,13 @@ Node.js: Version 16.20.1 - Also declared in .nvmrc
 Operating System: Ubuntu 22.04.3 LTS - Might be relevant information if symlinks don't work or file paths are invalid
 ```
 
-[Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction)
-[Node.js](https://nodejs.org/en/about)
-[nvm for Linux](https://github.com/nvm-sh/nvm)
-[nvm for Windows](https://www.freecodecamp.org/news/nvm-for-windows-how-to-download-and-install-node-version-manager-in-windows-10/) 
-[Ubuntu](https://ubuntu.com/)
-[StoryBlok](https://www.storyblok.com/)
-[Netlify](https://www.netlify.com/)
+- [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction)
+- [Node.js](https://nodejs.org/en/about)
+- [nvm for Linux](https://github.com/nvm-sh/nvm)
+- [nvm for Windows](https://www.freecodecamp.org/news/nvm-for-windows-how-to-download-and-install-node-version-manager-in-windows-10/) 
+- [Ubuntu](https://ubuntu.com/)
+- [StoryBlok](https://www.storyblok.com/)
+- [Netlify](https://www.netlify.com/)
 
 ## Setup
 Clone the repository to your local machine 
