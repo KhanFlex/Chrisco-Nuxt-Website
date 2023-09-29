@@ -1,28 +1,32 @@
 ### About this repository
+
 This repository contains everything needed to create, configure and update the church website at this url https://benevolent-torte-3f5e20.netlify.app
 The backend and front end of the website was developed using [Nuxt 3 Framework](https://nuxt.com/docs/getting-started/introduction) and the website content is managed
 separately using [StoryBlok](https://www.storyblok.com/). The site is hosted on [Netlify](https://www.netlify.com/) and the domain name is registered with [Namecheap](https://www.namecheap.com/)
 
 ### Development environment and Project dependencies
+
 ```bash
-Nuxt: Version 3 
+Nuxt: Version 3
 nvm: Version 0.39.3
 Node.js: Version 16.20.1 - Also declared in .nvmrc
 Operating System: Ubuntu 22.04.3 LTS - Might be relevant information if symlinks don't work or file paths are invalid
 ```
 
-- [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction)
-- [Node.js](https://nodejs.org/en/about)
-- [nvm for Linux](https://github.com/nvm-sh/nvm)
-- [nvm for Windows](https://www.freecodecamp.org/news/nvm-for-windows-how-to-download-and-install-node-version-manager-in-windows-10/) 
-- [Ubuntu](https://ubuntu.com/)
-- [StoryBlok](https://www.storyblok.com/)
-- [Netlify](https://www.netlify.com/)
+Nuxt 3 documentation: (https://nuxt.com/docs/getting-started/introduction)
+Node.js: (https://nodejs.org/en/about)
+nvm for Linux: (https://github.com/nvm-sh/nvm)
+nvm for Windows: (https://www.freecodecamp.org/news/nvm-for-windows-how-to-download-and-install-node-version-manager-in-windows-10/)
+Ubuntu: (https://ubuntu.com/)
+StoryBlok: (https://www.storyblok.com/)
+Netlify: (https://www.netlify.com/)
 
 ## Setup
-Clone the repository to your local machine 
+
+Clone the repository to your local machine
+
 ```bash
-git clone https://github.com/KhanFlex/Chrisco-Nuxt-Website.git 
+git clone https://github.com/KhanFlex/Chrisco-Nuxt-Website.git
 ```
 
 Change node version to the project's node version
@@ -31,7 +35,7 @@ Change node version to the project's node version
 nvm install # install the required node version if not already installed
 nvm use # run this in the root directory to switch node versions
 npm install # install npm dependencies
- ```
+```
 
 ## Start Development Server
 
@@ -58,37 +62,37 @@ Locally preview production build:
 npm run preview
 ```
 
-## Deploy to Netflify using Github CI (Continous Integration) 
+## Deploy to Netflify using Github CI (Continous Integration)
 
 ```bash
 git add . # if you added new files
 git commit -m "Briefly describe the new changes made here"
-git push -u origin master # sync the changes with the master branch in this repository. This will also trigger a deployment on Netlify reflecting the changes you made to the repository 
+git push -u origin master # sync the changes with the master branch in this repository. This will also trigger a deployment on Netlify reflecting the changes you made to the repository
 ```
 
 ## Website Pages
 
- 1. Home/Landing page
- 2. About - Our people 
- 3. About - Our beliefs
- 4. About - Our governance
- 5. About - Our story
- 6. Master calendar
- 7. Events
- 8. Event - Single
- 9. Weekly gatherings
+1.  Home/Landing page
+2.  About - Our people
+3.  About - Our beliefs
+4.  About - Our governance
+5.  About - Our story
+6.  Master calendar
+7.  Events
+8.  Event - Single
+9.  Weekly gatherings
 10. Weekly gathering - Single
 11. Resources - Sermons
 12. Resources - Sunday bulletins / News
 13. Resources - Daily Devotions
-14. Contact 
+14. Contact
 15. Giving
 
 ## Global Components
 
 1. Navigation menu
 2. Side Navigation menu for mobile
-2. Footer
+3. Footer
 
 ## Home page components
 
@@ -99,4 +103,5 @@ git push -u origin master # sync the changes with the master branch in this repo
 5. Upcoming events section
 
 ## Website link used as a template for the user interface
+
 [Link to website's UI template](https://startertemplatecloud.com/g12/)
