@@ -1,7 +1,7 @@
 ### About this repository
 
 This repository contains everything needed to create, configure and update the church website at this url https://benevolent-torte-3f5e20.netlify.app  
-The backend and front end of the website was developed using [Nuxt 3 Framework](https://nuxt.com/docs/getting-started/introduction).  
+The backend and front end of the website was developed using [Nuxt 3 Framework](https://nuxt.com/docs/getting-started/introduction)  
 The website content is managed separately using [StoryBlok](https://www.storyblok.com/).  
 The site is hosted on [Netlify](https://www.netlify.com/)  
 The domain name is registered with [Namecheap](https://www.namecheap.com/)  
