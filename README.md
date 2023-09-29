@@ -76,15 +76,15 @@ git push -u origin master # sync the changes with the master branch in this repo
 
 ## Website Pages
 
-01.  Home/Landing page
-02.  About - Our people
-03.  About - Our beliefs
-04.  About - Our governance
-05.  About - Our story
-06.  Master calendar
-07.  Events
-08.  Event - Single
-09.  Weekly gatherings
+1.  Home/Landing page
+2.  About - Our people
+3.  About - Our beliefs
+4.  About - Our governance
+5.  About - Our story
+6.  Master calendar
+7.  Events
+8.  Event - Single
+9.  Weekly gatherings
 10. Weekly gathering - Single
 11. Resources - Sermons
 12. Resources - Sunday bulletins / News
